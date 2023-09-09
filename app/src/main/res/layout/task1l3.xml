@@ -326,7 +326,7 @@
                 <ImageView
                     android:layout_width="80dp"
                     android:layout_height="80dp"
-                    android:src="@drawable/f1" />
+                    android:src="@drawable/h4" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -353,7 +353,7 @@
                 <ImageView
                     android:layout_width="80dp"
                     android:layout_height="80dp"
-                    android:src="@drawable/f2" />
+                    android:src="@drawable/h2" />
 
                 <TextView
                     android:layout_width="wrap_content"

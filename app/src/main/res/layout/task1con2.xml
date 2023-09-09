@@ -4,19 +4,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background">
+    android:background="@drawable/logo1">
 
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="1dp"
+        android:layout_width="300dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="50dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/image" />
+        app:srcCompat="@drawable/logoimage" />
 
     <LinearLayout
         android:id="@+id/selection"
@@ -65,6 +66,7 @@
         android:layout_width="match_parent"
         android:layout_height="170dp"
         android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:layout_marginTop="16dp"
         android:background="@drawable/rouunded_corner"
         app:layout_constraintStart_toStartOf="parent"
@@ -166,12 +168,12 @@
             android:layout_width="0px"
             android:layout_height="60dp"
             android:layout_weight="1"
-            android:src="@drawable/google" />
+            android:src="@drawable/icon12" />
 
         <ImageView
             android:layout_width="60dp"
             android:layout_height="60dp"
             android:layout_weight="1"
-            android:src="@drawable/app" />
+            android:src="@drawable/icon18" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
