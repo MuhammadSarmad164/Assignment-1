@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="730dp"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/l1"
+        android:layout_width="300dp"
+        android:layout_height="250dp"
+        android:background="@drawable/plant1"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="480dp"
+        android:layout_below="@id/l1"
+        android:background="@drawable/curve">
+
+        <EditText
+            android:id="@+id/text1"
+            android:background="@drawable/fields"
+            android:drawableEnd="@drawable/baseline_person_24"
+            android:layout_width="match_parent"
+            android:layout_marginTop="120dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="50dp"
+            android:hint="Username"
+            android:textColor="@color/White"
+            android:drawableRight="@drawable/baseline_person_24" />
+
+        <EditText
+            android:id="@+id/text3"
+            android:textColor="@color/White"
+            android:background="@drawable/fields"
+            android:layout_below="@+id/text1"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:drawableEnd="@drawable/baseline_lock_24"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:inputType="textPassword"
+            android:hint="Password"
+            android:drawableRight="@drawable/baseline_lock_24" />
+
+        <TextView
+            android:id="@+id/t3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text3"
+            android:text="Forget Password"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="25dp"
+            android:textColor="@color/White"
+            android:layout_alignParentRight="true"
+            android:textSize="19dp"/>
+
+        <Button
+            android:id="@+id/b1"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/t3"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/fields"
+            android:text="Sign in"
+            android:textSize="25dp" />
+        <TextView
+            android:layout_below="@id/b1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="30dp"
+            android:textColor="@color/White"
+            android:text=" !Sign Up"/>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
